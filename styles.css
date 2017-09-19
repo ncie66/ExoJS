@@ -1,0 +1,77 @@
+body{
+    background-color: #24416D;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+input[type=text]{
+    background-color:#BFC4CA;
+    color: #B10609;
+    font-family: Arial black ;
+}
+
+.bouton_submit{
+    background-color:#ACB1B7;
+    cursor:pointer;
+}
+
+textarea[type=text]{
+    background-color: #BFC4CA;
+    color: black;
+    font-family: Arial black ;
+
+}
+#date{
+    color: green;
+    width: 160px;
+}
+
+#rappel{
+    position: fixed;
+    display: flex;
+    z-index: 99;
+    right: 100px;
+}
+
+#add{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 50px;
+    border-radius: 8px; 
+    cursor: pointer; 
+    z-index: 99;
+
+}
+
+.rappel-it{
+    position: relative;
+}
+
+.rappel-it  .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#red{
+    color: #E9262A;
+}
+#blue{
+    color: blue;
+}
+#green{
+    color: green;
+}
+
+hr{
+    height: 2px;
+    margin: -0.5em 0;
+    padding: 0;
+    background-color: white;
+    border: 0;
+    width: 15%;
+}

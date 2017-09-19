@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title> Vos Rappels </title>
+</head>
+<body>
+
+<h1> Créer vos rappels : </h1>
+
+<hr></hr>
+
+<h3>Legende Couleur:</h3>
+<h4 id="green"> Evenement aujourd'hui !</h4>
+<h4 id="blue"> Evenement dans 3jours !</h4>
+<h4 id="red"> Evenement dépassé !</h4>
+<hr></hr>
+<div id="add">X</div>
+
+<form id="rappel">
+    <label><input type="text" placeholder="Titre" id="title" ><label><br><br>
+    <label><input type="text" placeholder="date début de rappel" id="date_debut" ><label>
+    <label><input type="text" placeholder="date fin de rappel" id="date_fin" ></label><br><br>
+    <label><textarea type="text" placeholder="description" rows="7" cols="41" id="description" ></textarea></label><br><br>
+    <input type="submit" class="bouton_submit" value="valider">
+    <input type="button" class="bouton_submit" onclick="window.location.replace('index.html')" value="Annuler / Rappel" />
+</form>
+
+
+
+<script src="jquery-3.2.1.min.js" ></script>
+<script src="jquery-ui/jquery-ui.min.js"></script>
+<script src="Rappel.js" ></script>
+<script src="App.js" ></script>
+<script src="Main.js" ></script>
+</body>
+</html>
