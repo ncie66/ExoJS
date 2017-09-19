@@ -101,8 +101,13 @@ class App{
             }
             
             if(rappel.date1.getTime() > (today + 172800000) && rappel.date1.getTime() < (today + 259200000)){
+                document.getElementById("div").style.backgroundColor="blue";
                 alert("N\'oubliez pas " +rappel.title + ' dans 3 jours')
 
+            }
+            if( rappel.date1.toLocaleDateString() == date1.toLocaleDateString() ){
+                document.getElementById("div").style.backgroundColor="green";
+                alert("Rappel aujourd\'hui : " + rappel.title)
             }
         }
     }

@@ -67,6 +67,10 @@ textarea[type=text]{
     color: green;
 }
 
+#legend{
+    color: white;
+}
+
 hr{
     height: 2px;
     margin: -0.5em 0;
